@@ -104,7 +104,6 @@ export function resetDB() {
     lowDB.write();
   }
 }
-
 export function readDB() {
   if (!onProduction) {
     lowDB.read();
